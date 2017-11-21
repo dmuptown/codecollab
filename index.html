@@ -3,31 +3,49 @@
 <head>
 <meta charset="utf-8">
 <title> Group 1 project </title>
+
 </head>
 <body>
+<a href="aboutcss.html">CSS information</a> 
+<a href="links.html">Code Links</a> 
 
-<h1> Let's Code Now </h1>
+
+<h1> Let's Code </h1>
 <div id="intro">
-  <p> <b><em>Have you ever wanted to make your own website?</b></em></br>  
-  <p> You can make your website using two languages: <b>HTML</b> and <b>CSS</b></p>
- <div class="html"
- <p> HTML stands for <b>Hypertext Markup Language</b>which is used to create the webpages you visit every day.</p>
- <p>You must start all of your documents with <b><!DOCTYPE html></b>which you need for your browser to display the content correctly.</p>
-<p> You must begin your document with <b><html></b> and ends with <b></html></b></p>
-<p> All of the stuff that will appear on your webpage will go between the <b><body></b> and <b></body></b> <em>tags.</em></p>
-<p> All of your content will be placed between an <b>opening</b> and <b>closing</b> <b>tag</b></p>
-<p><b><u>REMEMBER:</u></b>If you don't have both <em>opening</em>and <em>closing</em>tags your webpage won't display your stuff.</p>
+  <p> <em><b>Have you ever wanted to make your own website?</b></em><br>
+  
+  <p>If you practice the steps we are going to show you in this guide, you will be able to create your own webpage in no time.</p>
+  <h2>HTML and CSS</h2>
+  <p> There are many programming languages you can use to make a website. The two programming languages you will learn about here are: <b>HTML</b> and <b>CSS.</b> There are many books and website where you can read about these languages in more depth. The purpose of this page is to get you coding. The more you <b>practice</b> writing your own code the more it will make sense to you and the better you will be at it.</p>
+  </div>
+  
+  <h2>Let's Get Started</h2>
+    <div class= "howTo">
+    <p>Create a folder that will contain your website file structure, and name your website folder. Inside of this folder, create another folder titled <b>&#34;css&#x22;</b> where your <b>&#34;stylesheet&#x22;</b> will go. If your webiste has images, you will create another folder titled <b>&#34;images&#x22;.</b></br>
+    
+    <p><h3><b><u>REMEMBER:</u></b></h3> Check the names of your files and that your folders are organized correctly&#33;</br>
+
+ <div class="htmlbox"
+ <p> HTML stands for <b>Hypertext Markup Language </b>which is a document used to create the webpages you visit every day.</br>
+ <p>Begin your HTML document and in your code editor &#40;<b>Brackets&#44; Cloud 9&#44; Atom</b>&#41; and <em>Save As</em> <b>&#34;index.html&#34;</b><br/><br/>
+ <p>Repeat the same steps for creating your <b>CSS</b> file. Instead of ending in &#46;<b>html</b> your file will end with &#46;<b>css</b></p>
+ 
+ <p>You must start your document with <b>&lt;!DOCTYPE HTML&gt;</b><br> which you need for your webpage to display correctly.</p>
+<p> You must begin your document with <b>&lt;html&gt;</b> and end with <b>&lt;/html&gt;</b></p>
+<p> All of the content you want to appear on your webpage will go between the <b>&lt;body&gt;</b> and <b>&lt;/body&gt;</b> <em>tags.</em></p>
+
+<p><b><u><h3>REMEMBER: &lt;  &gt;</h3></u></b> If you don't have both <b>opening</b> and <b>closing</b> <em>tags</em> your webpage won't display your content so <b>check your tags. &lt;  &gt;</b></p>
 </div>
-<div class="css"
-<p> CSS stands for <b>Cascading Style Sheets</b>which is used to style your <b>HTML</b>document.</p>
- <p>CSS helps you control how your stuff looks. You can control the design, layout and variations in your webpage with one <em>CSS</em>document</p>
-<p><b><u>REMEMBER:</u></b>Your <em>CSS</em> page is where all of your styling will go to make your page look awesome.</p>
+<div class="cssbox"
+<p> <b>CSS</b> stands for <b>Cascading Style Sheets</b> which is used to style your <b>HTML</b> document.</p>
+ <p><b>CSS</b> allows you to style your content. You can create a single <b>CSS</b> document to design all of the pages of your website.</p>
+<p><h3><b><u>REMEMBER:</h3></u></b>Your <b>CSS</b> page is where all of your styling will go. All of your content will be in your <b>HTML</b> document.</p>
 </div>
 <div class="mainbox">
-<p> This is what your code will look like:</p>
+<p> This is what your code will look like:</br>
 <div class="codebox">
     <ul>
-    <li><!DOCTYPE HTML></li>    
+    <li>&lt;!doctype html&gt;</li>    
     <li>&lt;html&gt;</li>
     <li>&lt;head&gt;</li>
     <li>&lt;/head&gt;</li>
@@ -37,56 +55,8 @@
     </ul>
     </div>
     <div class="footer">
-      <div class="links">
-        <div class="links"><a href="https://www.w3schools.com">w3schools.com</a></div>  
-        <div class="links"><a href="https://www.codecademy.com">Code Academy</a></div>
-        <div class="links"><a href="https://developer.mozilla.org">MDN Web Docs</a></div>
-  </div> 
+    <p>Now that you have learned some basic information about how to set up your <b>HTML</b> document, Let's take a closer look at what you can do with <b>CSS.</b>  </p>    
   </div>
 </body>
 </html>
 
-<!DOCTYPE html>
-<html> 
-<head><link rel="stylesheet" type="text/css" href="css/aboutstyle.css">    
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> <title> All About CSS</title></head>
-<body> 
-<h1>ABOUT CSS<h1>
-<div class="aboutSection">
-<p>While there are other methods of stylizing your webpages, CSS (Cascading Style Sheets) are the most efficient.<br/><br/>
-
-The CSS method utilizes an external sheet that is linked to the HTML content that it seeks to stylize.  <br/><br/>
-
-As with other methods of stylization, each aspect of the element that you wish to change must be specified.  This is called a Style Declaration.  <br/><br/>
-Style Declarations follow a specific format, regardless of which method you use.  Each declaration must have a property and a value.  A property is the aspect that you wish to change, a value is the specific way in which you wish to change it.  The Property is joined to the value with a colon and the declaration is ended with a semi colon.<br/><br/>
-Example Format:<br/><br/>
-</p>
-</div>
-    <div class="exampleOne">
-         <img src="image/propertyvalue.jpg">
-    </div>
-    <h1>Sample Style Declaration</h1>
-    <div class="exampleTwo"> 
-         <img src="image/propertyvalueexample.jpg">
-        <p>To reiterate, the “border-style” is the property that changes the element.  “Solid” is how you want to change the element.</p>
-    </div>
-    <h1>HOW TO</h1>
-    <div class= "howTo">
-    <p>The first thing you need to do is add a folder to your website file structure.  Within your website folder, create a folder entitled “css.” As always, remember the names of your files and keep them organized!<br/><br/>
-
-Begin with your HTML document structure.  Name this file “index.html.”<br/><br/>
-
-Next, you need to create a new file in your coding program.  Name this file “style.css.”
-        <br/><br/>
-        Back at your HTML document, you need to add the link to your external CSS page.  Within your “head” tags is where you will place your link that corresponds to the external style sheet.  Here is an example:  <br/><br/>
-        </p>
-
-    </div>
-     <div class="exampleThree">
-         <img src="image/csslinkanatomy.jpg">
-    <p>The next step is to designate each element with a Class or an ID.  This will be within the opening and closing “body” tags.  A class will apply formatting to multiple elements, and an id will designate changes to a single element.</p>
-    </div>
-    
-    
-    </body>
-</html>

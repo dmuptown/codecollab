@@ -2,16 +2,16 @@
     margin:0px;
 }
 #intro {
-height: 100px;
-width: 500px;
-display: flex;
+display: inline-block;
+border-style: solid;
+background-color: red;
 }
-.html{
+.htmlbox{
  height: 100px;
 width: 500px; 
 display: flex;
 }
-.css {
+.cssbox {
 height: 100px;
 width: 500px;
 display: flex;
@@ -36,47 +36,15 @@ display: inline-block;
 width: 500px;
 display: inline-block;
 }
-<!DOCTYPE html>
-<html> 
-<head><link rel="stylesheet" type="text/css" href="css/aboutstyle.css">    
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> <title> All About CSS</title></head>
-<body> 
-<h1>ABOUT CSS<h1>
-<div class="aboutSection">
-<p>While there are other methods of stylizing your webpages, CSS (Cascading Style Sheets) are the most efficient.<br/><br/>
+body {font-family: 'Josefin Sans', sans-serif;}
+body img {height:400px;width:600px;}
+.aboutSection {font-size:20px;}
+.howTo {font-size:20px;margin-bottom: 20px;}
+.exampleTwo  {font-size:20px;}
+.exampleThree  {font-size:20px}
+.exImage {height:100px;width:200px;}
+#exTwoImageA {height:400px;width:600px;}
+#exTwoImageB {height:500px;width:700px;}
+.exImageA {height:100px;width:450px;}
 
-The CSS method utilizes an external sheet that is linked to the HTML content that it seeks to stylize.  <br/><br/>
 
-As with other methods of stylization, each aspect of the element that you wish to change must be specified.  This is called a Style Declaration.  <br/><br/>
-Style Declarations follow a specific format, regardless of which method you use.  Each declaration must have a property and a value.  A property is the aspect that you wish to change, a value is the specific way in which you wish to change it.  The Property is joined to the value with a colon and the declaration is ended with a semi colon.<br/><br/>
-Example Format:<br/><br/>
-</p>
-</div>
-    <div class="exampleOne">
-         <img src="image/propertyvalue.jpg">
-    </div>
-    <h1>Sample Style Declaration</h1>
-    <div class="exampleTwo"> 
-         <img src="image/propertyvalueexample.jpg">
-        <p>To reiterate, the “border-style” is the property that changes the element.  “Solid” is how you want to change the element.</p>
-    </div>
-    <h1>HOW TO</h1>
-    <div class= "howTo">
-    <p>The first thing you need to do is add a folder to your website file structure.  Within your website folder, create a folder entitled “css.” As always, remember the names of your files and keep them organized!<br/><br/>
-
-Begin with your HTML document structure.  Name this file “index.html.”<br/><br/>
-
-Next, you need to create a new file in your coding program.  Name this file “style.css.”
-        <br/><br/>
-        Back at your HTML document, you need to add the link to your external CSS page.  Within your “head” tags is where you will place your link that corresponds to the external style sheet.  Here is an example:  <br/><br/>
-        </p>
-
-    </div>
-     <div class="exampleThree">
-         <img src="image/csslinkanatomy.jpg">
-    <p>The next step is to designate each element with a Class or an ID.  This will be within the opening and closing “body” tags.  A class will apply formatting to multiple elements, and an id will designate changes to a single element.</p>
-    </div>
-    
-    
-    </body>
-</html>
