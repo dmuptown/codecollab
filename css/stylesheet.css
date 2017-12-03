@@ -1,40 +1,29 @@
-.body {
-    margin:0px;
-}
+body {
+    margin:25px;font-family: 'Josefin Sans', sans-serif;font-size:20px;}  /* added font styling for all pages*/
+h2 {color:darkgray;}/* added*/
+.navBar {height:100px;width:1200px;border-style:solid;border-color:lightgray;background-color: lightgray;}
+.mainContainer {height:2500px;width:1200px;border-style:solid;border-color:lightgray;}
+.navBarLinks{float:right;}/* added*/
+#cssLink{margin-right:10px;}    /* added*/
+#codeLink{margin-right:10px;}/* added*/
 #intro {
-display: inline-block;
-border-style: solid;
-background-color: red;
+
 }
-.htmlbox{
- height: 100px;
-width: 500px; 
-display: flex;
-}
+.htmlbox {margin-top: 15px;}
 .cssbox {
-height: 100px;
-width: 500px;
-display: flex;
+
 }
 .mainbox {
-    height: 100px;
-width: 500px;
-display: flex;
+  ;
 }
 .codebox {
-    height: 100px;
-width: 500px;
-display: flex;
+   
 }
 .footer {
-    height: 100px;
-width: 500px;
-display: inline-block;
+  
 }
-.links {
-    height: 100px;
-width: 500px;
-display: inline-block;
+.links {margin-top: 20px;
+   /* removed dimensions for the links to look like other pages*/
 }
 body {font-family: 'Josefin Sans', sans-serif;}
 body img {height:400px;width:600px;}
